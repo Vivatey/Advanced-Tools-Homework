@@ -1,0 +1,73 @@
+:root {
+  --primary-color: linear-gradient(
+    to top,
+    #f3e7e9 0%,
+    #e3eeff 99%,
+    #e3eeff 100%
+  );
+  --secondary-color: #e3f6f5;
+  --tertiary-color: #005792;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  background: var(--primary-color);
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.navigation-links {
+  margin-top: 40px;
+}
+
+.navigation-links a {
+  margin: 20px;
+  padding: 20px 15px;
+}
+
+.contact-link {
+  background: var(--tertiary-color);
+  box-shadow: var(--box-shadow);
+}
+
+.about-link {
+  color: var(--tertiary-color);
+  border: 1px solid var(--tertiary-color);
+}
+
+.app-link {
+  background: var(--tertiary-color);
+  padding: 20px 15px;
+  color: #fff;
+}
+
+.email-link {
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-logo {
+  max-width: 30px;
+  border: none;
+}
