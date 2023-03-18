@@ -71,3 +71,46 @@ p {
   max-width: 30px;
   border: none;
 }
+
+@media (max-width: 576px) {
+  body {
+    background: linear-gradient(
+      to right,
+      #eea2a2 0%,
+      #bbc1bf 19%,
+      #57c6e1 42%,
+      #b49fda 79%,
+      #7ac5d8 100%
+    );
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  .about-images {
+    margin-bottom: 25px;
+  }
+
+  .bg-blue {
+    background: #e771dc !important;
+  }
+
+  .navigation-links {
+    text-align: center;
+  }
+
+  .app-link {
+    display: block;
+    margin: 0 20px;
+  }
+
+  .information-link {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
